@@ -31,8 +31,8 @@ fields:
     - 60x80
     - 80x100
     source:
-      type: simple
-      section: 
-      file: 
-      path: 
+      type: documents
+      section: cecf8d79-e63a-40a2-b15b-5425913fc41f
+      file: content/data/authors.yaml
+      path: authors
   label: Размер
