@@ -1,4 +1,38 @@
 ---
 label: Painting
 hide_body: true
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Работа
+- name: title
+  type: text
+  config:
+    required: true
+  label: Название работы
+- name: year
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: YYYY
+    time_format: 
+    display_utc: false
+    export_format: YYYY
+  label: Год
+- name: dimensions
+  type: select
+  default: 60x80
+  config:
+    required: true
+    options:
+    - 60x80
+    - 80x100
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Размер
