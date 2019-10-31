@@ -36,3 +36,5 @@ fields:
       file: 
       path: 
   label: Размер
+pages:
+- content/posts/красная-дорога.md
