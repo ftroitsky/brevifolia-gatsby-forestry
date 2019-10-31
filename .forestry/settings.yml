@@ -23,8 +23,7 @@ sections:
   label: Info Page
 - type: document
   path: content/data/dimensions-list.yaml
-  label: Размеры работ
-  match: "**/*"
+  label: Dimensions
 - type: heading
   label: General Config
 - type: document
