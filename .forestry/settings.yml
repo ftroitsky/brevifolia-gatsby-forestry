@@ -22,7 +22,7 @@ sections:
   path: content/data/info.json
   label: Info Page
 - type: document
-  path: content/data/dimensions-list.yaml
+  path: content/data/authors.yaml
   label: Dimensions
 - type: heading
   label: General Config
