@@ -8,11 +8,12 @@ sections:
   label: Content
 - type: directory
   path: content/posts
-  label: Blog Posts
+  label: Posts
   create: documents
   match: "**/*"
   new_doc_ext: md
   templates:
+  - painting
   - blog-post
 - type: document
   path: content/data/authors.yaml
